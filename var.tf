@@ -19,9 +19,6 @@ variable PUB_KEY_PATH {
     default = "vprofilekey.pub"
 }
 
-variable USERNAME {
-    default = ubuntu
-}
 
 variable MYIP {
     default = "101.188.67.134/32"
@@ -70,9 +67,6 @@ variable VpcCIDR {
     default = "172.21.0.0/16"
 }
 
-variable VpcCIDR {
-    default = "172.21.0.0/16"
-}
 
 variable PubSub1CIDR {
     default = "172.21.1.0/24"
